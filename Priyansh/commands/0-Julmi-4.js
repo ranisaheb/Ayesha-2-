@@ -12,8 +12,8 @@ module.exports.config = {
 module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
 	let react = event.body.toLowerCase();
-	if(react.includes("MISS") ||
-     react.includes("miss") || react.includes("चूमा") || react.includes("miss") ||
+	if(react.includes("miss you") ||
+     react.includes("miss") || react.includes("i miss u") || react.includes("miss u") ||
 react.includes("miss you babu") ||
 react.includes("MISS YOU")) {
 		var msg = {
