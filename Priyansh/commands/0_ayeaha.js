@@ -16,7 +16,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	if(react.includes("ayesha") ||
      react.includes("Boss") || 
      react.includes("BOSS") || 
-     react.includes("ayeaha") ||
+     react.includes("ayesha") ||
      react.includes("admin") || 
 react.includes("Admin")) {
 		var msg = {
