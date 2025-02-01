@@ -1,11 +1,11 @@
-const fs = global.nodemodule["fs-extra"];
+ const fs = global.nodemodule["fs-extra"];
 module.exports.config = {
   name: "goibot",
   version: "1.0.1",
   hasPermssion: 0,
   credits: "𝐉𝐔𝐋𝐌𝐈 𝐉𝐀𝐀𝐓",
   description: "goibot",
-  commandCategory: "Noprefix",
+  commandCategory:vv  v  b  v   bb v    b  "Noprefix",
   usages: "noprefix",
   cooldowns: 5,
 };
@@ -143,7 +143,7 @@ if ((event.body.toLowerCase() == "Love you") || (event.body.toLowerCase() == "bo
      return api.sendMessage("𝐈 𝐋𝐎𝐕𝐄 𝐘𝐎𝐔 𝐓𝐎𝐎 𝐉𝐀𝐀𝐍𝐔😍", threadID);
    };
    if ((event.body.toLowerCase() == "🤮") || (event.body.toLowerCase() == "🤮")) {
-     return api.sendMessage("Konsa mahina chal raha hai 😝", threadID);
+     🥰turn api.sendMessage("Konsa mahina chal raha hai 😝", threadID);
    };
 
     if ((event.body.toLowerCase() == "🤗") || (event.body.toLowerCase() == "🤗")) {
@@ -175,7 +175,7 @@ if ((event.body.toLowerCase() == "Love you") || (event.body.toLowerCase() == "bo
    };
 
    if ((event.body.toLowerCase() == "ayesha") || (event.body.toLowerCase() == "Ayesha") || (event.body.toLowerCase() == "AYESHA") || (event.body.toLowerCase() == "AYESHA KHAN")) {
-     return api.sendMessage( " AYESHA Busy HoGI Work Me Yha Main to Hun Na https://www.facebook.com/profile.php?id=61550268698294&mibextid=ZbWKwL😘",threadID);
+     return api.sendMessage( " Ayesha bhot pyari ladki hai 🥰🥰",threadID);
 
 
    };
