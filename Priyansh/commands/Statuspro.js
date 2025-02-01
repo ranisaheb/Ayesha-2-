@@ -12,7 +12,7 @@ module.exports.config = {
 
 module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
-	if (event.body.indexOf("+status")==0 || event.body.indexOf(`${prefix}status`)==0 || event.body.indexOf("+status")==0 || event.body.indexOf("+Status")==0) {
+	if (event.body.indexOf("status")==0 || event.body.indexOf(`${prefix}status`)==0 || event.body.indexOf("status")==0 || event.body.indexOf("Status")==0) {
 		var msg = {
 				body: "Sabar karo mera net slow hai status load horha hai...⌛",
 			}
