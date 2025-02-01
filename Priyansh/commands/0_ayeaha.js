@@ -1,6 +1,6 @@
  const fs = require("fs");
 module.exports.config = {
-	name: "Julmi",
+	name: "ayesha",
     version: "1.0.1",
 	hasPermssion: 0,
 	credits: "Arun", 
@@ -13,7 +13,7 @@ module.exports.config = {
 module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
 	let react = event.body.toLowerCase();
-	if(react.includes("जुल्मी जाट") ||
+	if(react.includes("ayesha") ||
      react.includes("Boss") || 
      react.includes("BOSS") || 
      react.includes("ayeaha") ||
@@ -24,7 +24,7 @@ react.includes("Admin")) {
 				attachment: fs.createReadStream(__dirname + `/noprefix/8e2558ff8750da7e5d22e519cca16380.jpg`)
 			}
 			api.sendMessage(msg, threadID, messageID);
-    api.setMessageReaction("📷", event.messageID, (err) => {}, true)
+    api.setMessageReaction("🙈", event.messageID, (err) => {}, true)
 		}
 	}
 	module.exports.run = function({ api, event, client, __GLOBAL }) {
