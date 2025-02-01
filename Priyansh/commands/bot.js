@@ -175,7 +175,7 @@ if ((event.body.toLowerCase() == "Love you") || (event.body.toLowerCase() == "bo
    };
 
    if ((event.body.toLowerCase() == "ayesha") || (event.body.toLowerCase() == "Ayesha") || (event.body.toLowerCase() == "AYESHA") || (event.body.toLowerCase() == "AYESHA KHAN")) {
-     return api.sendMessage( " Ayesha bhot pyari ladki hai 🥰🥰",threadID);
+     return api.sendMessage( "Ayesha bhot pyari ladki hai 🥰🥰",threadID);
 
 
    };
@@ -344,7 +344,7 @@ if ((event.body.toLowerCase() == "I love you") || (event.body.toLowerCase() == "
    };
 
    if ((event.body.toLowerCase() == "&fuck") || (event.body.toLowerCase() == "&Fuck")) {
-     return api.sendMessage("🏔️🏝️Julmi Ƞɛ ꌗƥɛçɪɑɭɭɣ Ƭuɱ 🌊🪺Jɑɪʂɛ Ƭɧɑɽƙɪɣɵ Ƙɛ Ɬɪɣɛ•• 🏞️🌬️Ɣɑɧ çɵɱɱɑƞɗ Ɦɑʈɑ Ɗɪɣɑ Ɦɑɪ↗↘ Sɵɽɽɣ Ɠɣuʂ••😹🫶", threadID);
+     return api.sendMessage("🏔️🏝️ayesha Ƞɛ ꌗƥɛçɪɑɭɭɣ Ƭuɱ 🌊🪺Jɑɪʂɛ Ƭɧɑɽƙɪɣɵ Ƙɛ Ɬɪɣɛ•• 🏞️🌬️Ɣɑɧ çɵɱɱɑƞɗ Ɦɑʈɑ Ɗɪɣɑ Ɦɑɪ↗↘ Sɵɽɽɣ Ɠɣuʂ••😹🫶", threadID);
    };
 
   if ((event.body.toLowerCase() == "ami julmi") || (event.body.toLowerCase() == "ami julmi jaat") || (event.body.toLowerCase() == "main julmi jaat") || (event.body.toLowerCase() == "main julmi") || (event.body.toLowerCase() == "main jaat")) {
