@@ -12,16 +12,16 @@ module.exports.config = {
 module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
 	let react = event.body.toLowerCase();
-	if(react.includes("mahakal") ||
-     react.includes("MAHAKAL") || react.includes("mahadev") || react.includes("Har har mahadev") ||
-react.includes("Jai shree mahakal") ||
-react.includes("shiv")) {
+	if(react.includes("salam") ||
+     react.includes("assalam alaikum") || react.includes("Asslamalaikum") || react.includes("ASSLAM O ALAIKUM") ||
+react.includes("ASSLAM ALAIKUM") ||
+react.includes("Asslamu alaikum")) {
 		var msg = {
-				body: `【  HAR HAR MAHADEV🙏🙏😍_________________❤️🙏  】`,attachment: 
-fs.createReadStream(__dirname + `/noprefix/mahadev.mp3`)
+				body: `【  WA ALAIKUM ASSALAM _________________❤️  】`,attachment: 
+fs.createReadStream(__dirname + `/noprefix/`)
 			}
 			api.sendMessage(msg, threadID, messageID);
-    api.setMessageReaction("🙏", event.messageID, (err) => {}, true)
+    api.setMessageReaction("🥀", event.messageID, (err) => {}, true)
 		}
 	}
 	module.exports.run = function({ api, event, client, __GLOBAL }) {
